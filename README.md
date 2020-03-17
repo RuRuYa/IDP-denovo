@@ -16,12 +16,11 @@ Example:
  
  
 # Step 1 - SR-scaffold extension and k-mer cluster
-        ``` scaffoldExtend 
-        ```
+``` scaffoldExtend 
+```
          
 scaffold.fa is from Oases output (transcripts.fa), In "LR.fa", tags of sequences format are "lr1,lr2..."
-       ```kCluster 
-       ```
+```kCluster ```
         
 To cluster unaligned LRs with k-mer clustering method Output includes a TXT file and a Log file
  
