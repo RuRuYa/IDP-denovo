@@ -1,4 +1,4 @@
-# IDP-denovo
+# IDP-denovo: a tool for de novo transcriptome assembly and isoform annotation by hybrid sequencing.
 
 Download and install IDP-denovo:
 
