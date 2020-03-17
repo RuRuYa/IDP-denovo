@@ -6,6 +6,7 @@ Download and install IDP-denovo:
 
 
 **For impatient people**
+
 ```./idpdenovo  ```
 
 Example:
@@ -14,17 +15,20 @@ Example:
  
  
 # Step 1 - SR-scaffold extension and k-mer cluster
+
 ``` scaffoldExtend ```
 
 
 
 scaffold.fa is from Oases output (transcripts.fa), In "LR.fa", tags of sequences format are "lr1,lr2..."
+
 ```kCluster ```
         
 To cluster unaligned LRs with k-mer clustering method Output includes a TXT file and a Log file
  
  
 # Step 2 - Isoform annotation
+
  ```kCluster  kmer_size > clusterOutput 2> clusterLog ```
 
          
@@ -32,6 +36,7 @@ To cluster unaligned LRs with k-mer clustering method, output a TXT file and a l
  
  
 # Step 3 - Quantification
+
  ```MLE   python_path code_path SR_length  ```
 
  
