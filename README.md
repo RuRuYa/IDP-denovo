@@ -5,12 +5,14 @@ Download and install IDP-denovo:
 ```make```
 
 
-**For impatient people**
+**For impatient people**: 
 
 ```./idpdenovo  ```
 
 Example:
-./idpdenovo scaffold=/user/shuhua/idpdenovo/test_data/scaffold.fa lr=/user/shuhua/idpdenovo/test_data/lr.fa leftSr=/user/shuhua/idpdenovo/test_data/leftSr.fa rightSr=/user/shuhua/idpdenovo/test_data/rightSr.fa For test (in directory "test_data"): "scaffold.fa", "lr.fa" "leftSr.fa" "rightSr.fa"
+
+./idpdenovo scaffold=/user/shuhua/idpdenovo/test_data/scaffold.fa lr=/user/shuhua/idpdenovo/test_data/lr.fa leftSr=/user/shuhua/idpdenovo/test_data/leftSr.fa rightSr=/user/shuhua/idpdenovo/test_data/rightSr.fa 
+For test (in directory "test_data"): "scaffold.fa", "lr.fa" "leftSr.fa" "rightSr.fa"
  
  
  
