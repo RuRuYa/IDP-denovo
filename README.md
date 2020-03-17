@@ -2,14 +2,12 @@
 
 Download and install IDP-denovo:
 
-```
-   make
-```
+```make```
+
 
 **For impatient people**
-```
-   ./idpdenovo  
-```
+```./idpdenovo  ```
+
 Example:
 ./idpdenovo scaffold=/user/shuhua/idpdenovo/test_data/scaffold.fa lr=/user/shuhua/idpdenovo/test_data/lr.fa leftSr=/user/shuhua/idpdenovo/test_data/leftSr.fa rightSr=/user/shuhua/idpdenovo/test_data/rightSr.fa For test (in directory "test_data"): "scaffold.fa", "lr.fa" "leftSr.fa" "rightSr.fa"
  
@@ -18,7 +16,8 @@ Example:
 # Step 1 - SR-scaffold extension and k-mer cluster
 ``` scaffoldExtend ```
 
-         
+
+
 scaffold.fa is from Oases output (transcripts.fa), In "LR.fa", tags of sequences format are "lr1,lr2..."
 ```kCluster ```
         
